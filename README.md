@@ -5,9 +5,9 @@ A simple, mobile-style habit tracking web app built with HTML, CSS, and JavaScri
 ---
 
 ## 📱 Live Demo
-👉 https://YOUR_USERNAME.github.io/habit-tracker
+👉 https://ankitky30-tech.github.io/habit-tracker
 
-(Replace `YOUR_USERNAME` with your GitHub username)
+
 
 ---
 
@@ -43,11 +43,6 @@ While building this project, I learned:
 
 ---
 
-## 📸 Preview
-
-(Add a screenshot here later)
-
----
 
 ## 📌 Future Improvements
 
@@ -61,9 +56,9 @@ While building this project, I learned:
 
 ## 👨‍💻 Author
 
-Built by **YOUR_NAME**
+Built by Ankit Kumar
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/ankitky30-tech
 
 ---
 
