@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Habit Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- HOME SCREEN -->
+  <div id="homeScreen" class="screen">
+    <h1>🔥 Habits</h1>
+
+    <div id="progressText"></div>
+
+    <div class="progress-bar">
+      <div id="progressFill"></div>
+    </div>
+
+    <div class="input-row">
+      <input id="habitInput" placeholder="Add habit">
+      <button onclick="addHabit()">+</button>
+    </div>
+
+    <div id="habitList"></div>
+  </div>
+
+  <!-- STATS SCREEN -->
+  <div id="statsScreen" class="screen hidden">
+    <h2>📊 Stats</h2>
+    <p>Track your progress here soon.</p>
+  </div>
+
+  <!-- SETTINGS SCREEN -->
+  <div id="settingsScreen" class="screen hidden">
+    <h2>⚙️ Settings</h2>
+    <p>Settings coming soon.</p>
+  </div>
+
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+  <div class="nav-item active" onclick="showScreen('home')">🏠</div>
+  <div class="nav-item" onclick="showScreen('stats')">📊</div>
+  <div class="nav-item" onclick="showScreen('settings')">⚙️</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
